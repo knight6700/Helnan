@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E38B29920C0DD3400632EE0 /* GetHotelsTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38B29820C0DD3400632EE0 /* GetHotelsTV.swift */; };
+		1E72756720C0D38100A1A003 /* HotelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E72756620C0D38100A1A003 /* HotelsCell.swift */; };
+		1E72756B20C0D5E900A1A003 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E72756A20C0D5E900A1A003 /* Config.swift */; };
+		1E72756D20C0D7D200A1A003 /* GetHotelsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E72756C20C0D7D200A1A003 /* GetHotelsAPI.swift */; };
+		1ED6AFDF20CC438700CDD19B /* HotelsGetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6AFDE20CC438700CDD19B /* HotelsGetInfo.swift */; };
+		1EFCD58F20C0719300E22DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCD58E20C0719300E22DC5 /* AppDelegate.swift */; };
+		1EFCD59120C0719300E22DC5 /* HotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFCD59020C0719300E22DC5 /* HotelsVC.swift */; };
+		1EFCD59420C0719300E22DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCD59220C0719300E22DC5 /* Main.storyboard */; };
+		1EFCD59620C0719400E22DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCD59520C0719400E22DC5 /* Assets.xcassets */; };
+		1EFCD59920C0719400E22DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFCD59720C0719400E22DC5 /* LaunchScreen.storyboard */; };
+		37B68BE2D885D6CBA551F95C /* Pods_HelnanProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB41BE75117A0A746023FEC /* Pods_HelnanProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E38B29820C0DD3400632EE0 /* GetHotelsTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHotelsTV.swift; sourceTree = "<group>"; };
+		1E72756620C0D38100A1A003 /* HotelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCell.swift; sourceTree = "<group>"; };
+		1E72756A20C0D5E900A1A003 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1E72756C20C0D7D200A1A003 /* GetHotelsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHotelsAPI.swift; sourceTree = "<group>"; };
+		1ED6AFDE20CC438700CDD19B /* HotelsGetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsGetInfo.swift; sourceTree = "<group>"; };
+		1EFCD58B20C0719300E22DC5 /* HelnanProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelnanProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFCD58E20C0719300E22DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFCD59020C0719300E22DC5 /* HotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVC.swift; sourceTree = "<group>"; };
+		1EFCD59320C0719300E22DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFCD59520C0719400E22DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EFCD59820C0719400E22DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EFCD59A20C0719400E22DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB41BE75117A0A746023FEC /* Pods_HelnanProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelnanProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C231A4E49D7D4F3FC5E62E /* Pods-HelnanProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelnanProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelnanProject/Pods-HelnanProject.release.xcconfig"; sourceTree = "<group>"; };
+		B491A286D61632E6820E3BBA /* Pods-HelnanProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelnanProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelnanProject/Pods-HelnanProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EFCD58820C0719300E22DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B68BE2D885D6CBA551F95C /* Pods_HelnanProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4EDEE6F6E57FEE9A49CE86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB41BE75117A0A746023FEC /* Pods_HelnanProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E72756820C0D5CE00A1A003 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1E72756A20C0D5E900A1A003 /* Config.swift */,
+				1E72756C20C0D7D200A1A003 /* GetHotelsAPI.swift */,
+				1E38B29820C0DD3400632EE0 /* GetHotelsTV.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1EFCD58220C0719300E22DC5 = {
+			isa = PBXGroup;
+			children = (
+				1EFCD58D20C0719300E22DC5 /* HelnanProject */,
+				1EFCD58C20C0719300E22DC5 /* Products */,
+				B14D7C1B9A09BCC787A84555 /* Pods */,
+				0F4EDEE6F6E57FEE9A49CE86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EFCD58C20C0719300E22DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EFCD58B20C0719300E22DC5 /* HelnanProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EFCD58D20C0719300E22DC5 /* HelnanProject */ = {
+			isa = PBXGroup;
+			children = (
+				1EFCD5A220C071AA00E22DC5 /* Control */,
+				1EFCD5A120C071A400E22DC5 /* View */,
+				1EFCD5A020C0719E00E22DC5 /* Model */,
+				1EFCD59520C0719400E22DC5 /* Assets.xcassets */,
+				1EFCD59A20C0719400E22DC5 /* Info.plist */,
+			);
+			path = HelnanProject;
+			sourceTree = "<group>";
+		};
+		1EFCD5A020C0719E00E22DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E72756820C0D5CE00A1A003 /* API */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EFCD5A120C071A400E22DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EFCD59220C0719300E22DC5 /* Main.storyboard */,
+				1EFCD59720C0719400E22DC5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EFCD5A220C071AA00E22DC5 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1EFCD58E20C0719300E22DC5 /* AppDelegate.swift */,
+				1EFCD59020C0719300E22DC5 /* HotelsVC.swift */,
+				1E72756620C0D38100A1A003 /* HotelsCell.swift */,
+				1ED6AFDE20CC438700CDD19B /* HotelsGetInfo.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		B14D7C1B9A09BCC787A84555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B491A286D61632E6820E3BBA /* Pods-HelnanProject.debug.xcconfig */,
+				A1C231A4E49D7D4F3FC5E62E /* Pods-HelnanProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EFCD58A20C0719300E22DC5 /* HelnanProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFCD59D20C0719400E22DC5 /* Build configuration list for PBXNativeTarget "HelnanProject" */;
+			buildPhases = (
+				24A526D03988C046DF79E0D1 /* [CP] Check Pods Manifest.lock */,
+				1EFCD58720C0719300E22DC5 /* Sources */,
+				1EFCD58820C0719300E22DC5 /* Frameworks */,
+				1EFCD58920C0719300E22DC5 /* Resources */,
+				67133B352A6679C55F3BADE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelnanProject;
+			productName = HelnanProject;
+			productReference = 1EFCD58B20C0719300E22DC5 /* HelnanProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EFCD58320C0719300E22DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CyanDH;
+				TargetAttributes = {
+					1EFCD58A20C0719300E22DC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1EFCD58620C0719300E22DC5 /* Build configuration list for PBXProject "HelnanProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EFCD58220C0719300E22DC5;
+			productRefGroup = 1EFCD58C20C0719300E22DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFCD58A20C0719300E22DC5 /* HelnanProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EFCD58920C0719300E22DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFCD59920C0719400E22DC5 /* LaunchScreen.storyboard in Resources */,
+				1EFCD59620C0719400E22DC5 /* Assets.xcassets in Resources */,
+				1EFCD59420C0719300E22DC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24A526D03988C046DF79E0D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelnanProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67133B352A6679C55F3BADE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelnanProject/Pods-HelnanProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelnanProject/Pods-HelnanProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFCD58720C0719300E22DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFCD59120C0719300E22DC5 /* HotelsVC.swift in Sources */,
+				1E38B29920C0DD3400632EE0 /* GetHotelsTV.swift in Sources */,
+				1E72756D20C0D7D200A1A003 /* GetHotelsAPI.swift in Sources */,
+				1E72756B20C0D5E900A1A003 /* Config.swift in Sources */,
+				1E72756720C0D38100A1A003 /* HotelsCell.swift in Sources */,
+				1ED6AFDF20CC438700CDD19B /* HotelsGetInfo.swift in Sources */,
+				1EFCD58F20C0719300E22DC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EFCD59220C0719300E22DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFCD59320C0719300E22DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFCD59720C0719400E22DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFCD59820C0719400E22DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EFCD59B20C0719400E22DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EFCD59C20C0719400E22DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFCD59E20C0719400E22DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B491A286D61632E6820E3BBA /* Pods-HelnanProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AULHYB573N;
+				INFOPLIST_FILE = HelnanProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyandh-Classes.HelnanProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EFCD59F20C0719400E22DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C231A4E49D7D4F3FC5E62E /* Pods-HelnanProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AULHYB573N;
+				INFOPLIST_FILE = HelnanProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyandh-Classes.HelnanProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFCD58620C0719300E22DC5 /* Build configuration list for PBXProject "HelnanProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFCD59B20C0719400E22DC5 /* Debug */,
+				1EFCD59C20C0719400E22DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFCD59D20C0719400E22DC5 /* Build configuration list for PBXNativeTarget "HelnanProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFCD59E20C0719400E22DC5 /* Debug */,
+				1EFCD59F20C0719400E22DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EFCD58320C0719300E22DC5 /* Project object */;
+}

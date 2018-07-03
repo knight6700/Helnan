@@ -1,0 +1,6 @@
+framework module Pods_HelnanProject {
+  umbrella header "Pods-HelnanProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
